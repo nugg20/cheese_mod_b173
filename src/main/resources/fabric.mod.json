@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "template",
-  "version": "${version}",
+  "id": "cheesemod",
+  "version": "0.1",
 
-  "name": "Template",
-  "description": "",
+  "name": "Cheese Mod",
+  "description": "Adds cheese and other stuff to Minecraft beta 1.7.3",
   "authors": [
-    "DanyGames2014"
+    "nugg20"
   ],
 
   "license": "MIT",
-  "icon": "assets/template/icon.png",
+  "icon": "assets/cheesemod/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -22,7 +22,7 @@
     ]
   },
   "mixins": [
-    "template.mixins.json"
+    "cheesemod.mixins.json"
   ],
 
   "depends": {
