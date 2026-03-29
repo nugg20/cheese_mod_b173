@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    "xy ",
+    " i "
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:bread"
+    },
+    "x": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "y": {
+      "item": "cheesemod:cheese"
+    }
+  },
+  "result": {
+    "item": "cheesemod:ultimateSandwich",
+    "count": 1
+  }
+}
