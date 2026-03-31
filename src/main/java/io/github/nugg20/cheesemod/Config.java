@@ -3,6 +3,8 @@ package io.github.nugg20.cheesemod;
 import net.glasslauncher.mods.gcapi3.api.ConfigEntry;
 import net.glasslauncher.mods.gcapi3.api.ConfigRoot;
 import net.modificationstation.stationapi.config.StationConfigData;
+import net.modificationstation.stationapi.config.StationConfig;
+import org.checkerframework.checker.units.qual.min;
 
 
 public final class Config {
@@ -22,9 +24,11 @@ public final class Config {
         //creates a config entry
         @ConfigEntry(
                 name = "Minecart Max Speed",
-                comment = "Maximum horizontal speed of minecarts"
+                comment = "Maximum horizontal speed of minecarts.\nVanilla is 0.4"
+
         )
         public Float minecartMaxSpeed = 0.4F;
+
 
         // debug stuff // static {System.out.println("CONFIG CLASS LOADED");}
     }
