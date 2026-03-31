@@ -14,10 +14,10 @@ public class ModBlocks {
     @Entrypoint.Namespace
     public static Namespace NAMESPACE;
 
-    // A static object holding our bock
+    // creates static objects holding the block
     public static Block cheeseBlock;
 
-    // An event listener listening to the BlockRegistryEvent
+    // registers the blocks
     @EventListener
     public void registerBlocks(BlockRegistryEvent event) {
         cheeseBlock = new TemplateBlock(NAMESPACE.id("cheeseBlock"), Material.CLAY)

@@ -14,9 +14,6 @@
 
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "io.github.nugg20.cheesemod.ClientInit"
-    ],
     "gcapi3": [
       "io.github.nugg20.cheesemod.Config"
     ],

@@ -10,12 +10,16 @@ import net.modificationstation.stationapi.api.util.Namespace;
 
 public class ModItems{
 
+    // Namespace Utility Field
     @Entrypoint.Namespace
     public static Namespace NAMESPACE;
 
+    // creates static objects holding the block
     public static Item cheese;
     public static Item ultimateSandwich;
 
+    // registers the items
+    //NOTE: HEAL AMOUNT 2 = 1 heart restored
     @EventListener
     public void registerItems(ItemRegistryEvent event) {
 
