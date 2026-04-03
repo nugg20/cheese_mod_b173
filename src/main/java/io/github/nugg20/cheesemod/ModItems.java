@@ -23,12 +23,14 @@ public class ModItems{
     @EventListener
     public void registerItems(ItemRegistryEvent event) {
 
-        cheese = new TemplateFoodItem(NAMESPACE.id("cheese"), 4, false)
-                .setTranslationKey(NAMESPACE, "cheese");
+        cheese = new TemplateFoodItem(NAMESPACE.id("cheese"), Config.FoodConfigData.cheeseHealAmount, false)
+                .setTranslationKey(NAMESPACE, "cheese")
+                .setMaxCount(Config.FoodConfigData.cheeseStackSize);
 
-        ultimateSandwich = new TemplateFoodItem(NAMESPACE.id("ultimateSandwich"), 16, false)
-                .setTranslationKey(NAMESPACE, "ultimateSandwich");
 
+        ultimateSandwich = new TemplateFoodItem(NAMESPACE.id("ultimateSandwich"), Config.FoodConfigData.UltimateSandwichHealAmount, false)
+                .setTranslationKey(NAMESPACE, "ultimateSandwich")
+                .setMaxCount(Config.FoodConfigData.UltimateSandwichStackSize);
 
     }
 }
